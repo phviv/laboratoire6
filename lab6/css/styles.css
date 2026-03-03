@@ -1,0 +1,66 @@
+/* GENERIC */
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+/* BASE */ 
+body{
+    font: 1.125rem/160% "Frank Ruhl Libre", serif;
+    background-color: #07020d;
+    color: #fff;
+}
+
+/* MISE EN PAGE */ 
+.wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ÉLÉMENTS TYPOGRAPHIE */ 
+a{
+    text-decoration: none;
+}
+
+/* COMPONENTS */ 
+.header{
+    color:#07020d;
+    position: fixed;
+    left: 0;
+    top: 50px;
+    width: 100%;
+}
+
+.header .wrapper{
+    background-color: rgb(255 255 255 / 80%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 800px;
+}
+
+.logo{
+    font-size: 30px;
+    color: inherit;
+}
+
+.menu{
+    font-size: 30px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.hero{
+    height: 400px;
+    background-image: url(../images/photos/.hero);
+    background-size: cover;
+}
