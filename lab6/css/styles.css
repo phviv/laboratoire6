@@ -9,8 +9,6 @@ html{
 
 /* BASE */ 
 body{
-    margin: 0;
-    padding: 0;
     font: 1.125rem/160% "Frank Ruhl Libre", serif;
     background-color: #07020d;
     color: #fff;
@@ -69,12 +67,12 @@ button:hover{
     left: 0;
     width: 100%;
     height: 100vh;
+    padding: 30px;
     z-index: 100;
     background-color: rgba(0, 0, 0, 80%); 
     display: none;
     align-items: center;
     justify-content: center;
-    padding: 30px;
 }
 
 /* COMPONENTS */ 
@@ -84,7 +82,7 @@ button:hover{
     left: 0;
     top: 50px;
     width: 100%;
-    z-index: 9999;
+    z-index: 10;
 }
 
 .header .wrapper{
@@ -98,7 +96,7 @@ button:hover{
 }
 
 .logo{
-    font-size: 30px;
+    font-size: 1.875rem;
     color: inherit;
 }
 
@@ -166,6 +164,6 @@ footer{
     left: 0;
 }
 
-.modal .visible{
+.modal.visible{
     display: flex;
 }
